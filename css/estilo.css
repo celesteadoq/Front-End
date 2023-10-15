@@ -1,0 +1,164 @@
+
+.logo{
+    height: 50px;
+
+}
+.login{
+    height: 50px;
+    transform: scaleX(-1);
+}
+.login-container {
+    display: flex;
+    align-items: center;
+}
+.Login {
+    display: inline-block;
+    margin-left: 10px;
+        color: white;
+        opacity: 0.5;
+        font-family: 'Alatsi', sans-serif;
+    }
+.menu{
+    height: 50px ;
+}
+.menu-text {
+    display: block;
+    margin-left: 25px;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Alatsi', sans-serif;
+}
+
+.banner {
+    position: relative;
+    max-width: 100%; /* Garante que o contêiner não ultrapasse a largura da tela */
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites do contêiner */
+    
+}
+.banner img {
+    width: 100%; /* Faz com que a largura da imagem seja 100% do contêiner pai */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+}
+
+.texto {
+    position: absolute;
+    top: 10%; /* posiciona o texto no meio da imagem verticalmente */
+    left: 50%; /* posiciona o texto no meio da imagem horizontalmente */
+    transform: translate(-50%, -50%); /* centraliza o texto corretamente */
+    font-size: 24px; /* define o tamanho da fonte do texto */
+    color: #000000; /* define a cor do texto para branco */
+    text-align: center; /* alinha o texto no centro */
+    padding: 10px 20px; /* adiciona um espaçamento interno ao redor do texto */
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Alatsi', sans-serif;
+}
+
+.navegacao {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.botao-navegacao {
+    width: 50px; /* Largura e altura iguais para criar um botão circular */
+    height: 50px;
+    font-size: 36px; /* Tamanho do texto e das setas dos botões */
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.75); /* Fundo cinza transparente */
+    border-radius: 50%; /* Bordas arredondadas para criar um botão circular */
+    color: #000000; /* Cor do texto (preto) */
+    display: flex;
+    justify-content: center; /* Alinha o conteúdo horizontalmente no centro */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+}
+
+.botao-navegacao:hover {
+    background-color: rgba(169, 169, 169, 0.8); /* Altera a cor de fundo ao passar o mouse */
+}
+.subtex{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Alatsi', sans-serif;
+}
+.linha {
+    width: 80%; /* Define a largura da borda superior */
+    border-top: 2px solid red; /* Define a cor e a espessura da borda superior */
+    margin: 0 auto; /* Centraliza a borda na página */
+}
+
+.textninja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px; /* Ajuste a margem direita conforme necessário */
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 40px;
+}
+.ninja370 {
+    display: flex;
+    align-items: center;
+}
+
+.text370 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -5rem;
+    margin-right: 20px;
+
+}
+.moto2 {
+    transform: scaleX(-1); /* Inverte a imagem horizontalmente */
+    display: flex;
+    position:absolute;
+    z-index: 3;
+    margin-top: 20rem;
+    margin-left: 65%;
+}
+.ninja400{
+    display: flex;
+    align-items: center;
+}
+.text400 {
+    margin-left: 20px;
+    margin-top: 4rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinha à esquerda */
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
+  width: 1095px;
+}
+
+
+
+body{
+    background-color: black;
+}
+header{
+    background: linear-gradient(to bottom, rgb(26, 25, 25) , black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: red solid 4px;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none ;
+}
